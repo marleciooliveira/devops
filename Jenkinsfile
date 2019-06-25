@@ -15,8 +15,8 @@ pipeline {
 	 
 	        stage('STAGE 01'){
 	            steps{
-	                sh 'chmod 754 /var/www/html/index.php' ;
-			echo "================  adicioando permissões=======================" ;
+			echo "================  remove projeto =======================" ;
+			sh 'rm -rf *'
 
 	            }
 	        }
