@@ -16,7 +16,7 @@ pipeline {
 	        stage('STAGE 01'){
 	            steps{
 			echo "================  remove projeto =======================" ;
-			sh 'rm -rf *'
+			sh 'rm -rf devops'
 
 	            }
 	        }
